@@ -1,0 +1,39 @@
+/*style input with type="text",and type="email",or type="date" select,and textarea,*/
+input[type=text],select, textarea,input[type=email],input[type=date] {
+    width: 100%;  /*full wirth*/
+    padding: 12px;  /*ssome padding*/
+    border: 1px solid #ccc;  /*gray border */
+    border-radius: 4px;  /*Rounded border */
+    box-sizing: border-box;  /*make sure that padding and wirth stays in place */
+    margin-top: 6px; /*add top padding*/
+    margin-bottom: 16px;  /* add bottom padding*/
+    resize: vertical;  /*resize the textarea */
+    }
+    /*style the submit button input[type="submit"] change the background and etc.. */
+    input[type=submit]{
+        border: none; /* button border change */
+        color: white;  /* text colour change  */
+        border-radius: 5px;  /*some border-radius */
+        padding: 15px;  /* 15px padding */
+        background: #4CAF50; /*change background colour */
+        cursor: pointer; /* convert pointer*/
+        width: 100px; /* full size button*/
+    }
+    input[type=submit]:hover{
+        background: #45A049; /* our to moving submit button change the colour */
+    }
+.guddu{
+  border-radius: 5px;
+  background-color: #f2f2f2; /*change the background colour */
+  padding: 20px; /* some padding */
+}
+header,nav{/*change the header colour and align,color,border; */
+    background-color: yellowgreen;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+h6{
+    color: red;
+  
+}
